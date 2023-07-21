@@ -10,7 +10,7 @@ def prediction(Age,Number,Start):
     return predict
 
 def main():
-    st.title("Kyphosis Preidctor")
+    st.title("Kyphosis Predictor")
     Age = st.number_input("Age")
     Number = st.number_input("Number")
     Start = st.number_input("Start")
