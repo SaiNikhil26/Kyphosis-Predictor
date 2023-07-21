@@ -1,3 +1,4 @@
+import sklearn
 import streamlit as st
 import pickle
 pickle_in = open("kyphosis.pkl","rb")
